@@ -1,2 +1,5 @@
 # UAV
 UAV Collision Avoidance System
+This is a Traffic Collision Avoidance System for UAV.
+Run main_gui.py and you will see a setting interface. Initially, there are three UAVs. You can modify the coordinates and speed at will. If you want to add more drones, you can click the add drone button. After the preparation, click the start simulation button to start running the 3D demonstration diagram. During the demonstration process, you can click the pause/start button at any time to observe the obstacle avoidance of the UAV. On the right side of the figure is an information panel, which clearly records the status, coordinates, speed and other information of each UAV.
+The UAVDNN.py file in the UAVDNN folder is used to collect data, and the other three files are used to train the model. 
